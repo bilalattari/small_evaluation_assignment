@@ -438,7 +438,7 @@ dist/
 *.jsbundle
 
 # CocoaPods
-/ios/Pods/
+game_leaderbord_app/ios/Pods/
 
 # Android
 *.apk
@@ -452,24 +452,25 @@ dist/
 *.dSYM
 
 # React Native CLI specific
-android/app/build/
-android/build/
-android/gradle/
-android/gradlew
-android/gradlew.bat
-android/local.properties
-android/.gradle/
-android/captures/
-android/gradle.properties
-android/key.properties
-android/app/release/
-android/app/debug/
+game_leaderbord_app/android/app/build/
+game_leaderbord_app/android/build/
+game_leaderbord_app/android/.gradle/
+game_leaderbord_app/android/captures/
+game_leaderbord_app/android/app/release/
+game_leaderbord_app/android/app/debug/
+game_leaderbord_app/android/local.properties
+game_leaderbord_app/android/key.properties
 
-ios/build/
-ios/Pods/
-ios/*.xcworkspace
-ios/*.xcodeproj/project.xcworkspace/
-ios/*.xcodeproj/xcuserdata/
+game_leaderbord_app/ios/build/
+game_leaderbord_app/ios/Pods/
+game_leaderbord_app/ios/*.xcworkspace
+game_leaderbord_app/ios/*.xcodeproj/project.xcworkspace/
+game_leaderbord_app/ios/*.xcodeproj/xcuserdata/
+
+# React Native CLI project specific
+game_leaderbord_app/.bundle/
+game_leaderbord_app/vendor/
+game_leaderbord_app/Gemfile.lock
 
 # ===== Project Specific =====
 # Add any project-specific files or directories here
