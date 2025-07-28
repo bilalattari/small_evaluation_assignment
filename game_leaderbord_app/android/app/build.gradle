@@ -77,9 +77,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.game_leaderbord_app"
+    namespace "com.leaderboard_game"
     defaultConfig {
-        applicationId "com.game_leaderbord_app"
+        applicationId "com.leaderboard_game"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
